@@ -2,17 +2,20 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cookie Count Tracker</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cookie Count Tracker</title>
+  <link rel="stylesheet" href="styles.css"> <!-- ✅ Link to CSS -->
 </head>
 
 <body>
-    <h1>Welcome to the Cookie Count Tracker!</h1>
+  <div><h1>Welcome to the Cookie Count Tracker!</h1>
     <p>Page views for this session:</p>
-    <div id="countDisplay">Loading count...</div>
-</body>
+    <p>You have visited/interacted <span id="counter">0</span> times.</p>
+    <button onclick="incrementCount()">Click to Increase Count</button>
+  </div>
 
-<script src="./script.js"></script>
+  <script src="script.js"></script> <!-- ✅ Link to JS -->
+</body>
 
 </html>
